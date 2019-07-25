@@ -1,1 +1,1 @@
-var TOTP=function(n){"use strict";return n.hi=function(n){return"hello my name is "+n},n}({});
+var TOTP=function(n){"use strict";var t=function(){function n(){}return n.generate=function(){return Math.random()},n.prototype.validate=function(){return"crypto file"},n}();return n.TOTP=t,n.hi=function(n){return"hello my name is "+n},n}({});

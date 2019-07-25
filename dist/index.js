@@ -1,1 +1,1 @@
-"use strict";function hi(e){return"hello my name is "+e}Object.defineProperty(exports,"__esModule",{value:!0}),exports.hi=hi;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var name="crypto file";function hi(e){return"hello my name is "+e}var TOTP=function(){function e(){}return e.generate=function(){return Math.random()},e.prototype.validate=function(){return name},e}();exports.TOTP=TOTP,exports.hi=hi;

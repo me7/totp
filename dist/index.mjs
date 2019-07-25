@@ -1,1 +1,1 @@
-function e(e){return"hello my name is "+e}export{e as hi};
+function n(n){return"hello my name is "+n}var t=function(){function n(){}return n.generate=function(){return Math.random()},n.prototype.validate=function(){return"crypto file"},n}();export{t as TOTP,n as hi};
