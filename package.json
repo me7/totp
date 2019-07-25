@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "src": "src/index.ts",
   "author": "Gampol T.",
+  "repository": "github:me7/totp",
   "description": "Time-Based One-Time Password Algorithm (RFC 6238)",
   "url": "https://github.com/me7/totp",
   "license": "MIT",
