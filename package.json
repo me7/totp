@@ -1,6 +1,6 @@
 {
   "name": "@me7/totp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "src": "src/index.ts",
   "main": "dist/bundle.js",
   "author": "Gampol T.",
