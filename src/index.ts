@@ -1,3 +1,3 @@
-export default {
-  name: "TOTP@1.0.4"
-};
+export function hi(name: string): string {
+  return `hello my name is ${name}`;
+}

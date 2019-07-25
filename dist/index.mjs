@@ -1,1 +1,1 @@
-export default{name:"TOTP@1.0.4"};
+function e(e){return"hello my name is "+e}export{e as hi};
