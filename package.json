@@ -2,7 +2,7 @@
   "name": "@me7/totp",
   "version": "1.0.5",
   "src": "src/index.ts",
-  "main": "dist/bundle.js",
+  "main": "dist/index.js",
   "author": "Gampol T.",
   "repository": "github:me7/totp",
   "description": "Time-Based One-Time Password Algorithm (RFC 6238)",
