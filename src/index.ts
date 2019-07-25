@@ -1,3 +1,3 @@
 export default {
-    name: 'TOTP'
-}
+  name: "TOTP@1.0.4"
+};

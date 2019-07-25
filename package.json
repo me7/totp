@@ -2,6 +2,7 @@
   "name": "@me7/totp",
   "version": "1.0.3",
   "src": "src/index.ts",
+  "main": "dist/bundle.js",
   "author": "Gampol T.",
   "repository": "github:me7/totp",
   "description": "Time-Based One-Time Password Algorithm (RFC 6238)",
@@ -10,5 +11,18 @@
   "keywords": [
     "OTP",
     "2FA"
-  ]
+  ],
+  "devDependencies": {
+    "rollup": "^1.17.0",
+    "rollup-plugin-terser": "^5.1.1",
+    "rollup-plugin-typescript": "^1.0.1",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
 }
