@@ -1,4 +1,13 @@
 {
   "name": "@me7/totp",
-  "version": "1.0.1"
+  "version": "1.0.1",
+  "src": "src/index.ts",
+  "author": "Gampol T.",
+  "description": "Time-Based One-Time Password Algorithm (RFC 6238)",
+  "url": "https://github.com/me7/totp",
+  "license": "MIT",
+  "keywords": [
+    "OTP",
+    "2FA"
+  ]
 }
