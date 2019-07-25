@@ -1,6 +1,6 @@
 {
   "name": "@me7/totp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "src": "src/index.ts",
   "author": "Gampol T.",
   "repository": "github:me7/totp",
