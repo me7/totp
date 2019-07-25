@@ -5,6 +5,10 @@ const production = !process.env.ROLLUP_WATCH;
 
 export default {
   input: "src/index.ts",
-  output: { file: "dist/bundle.js", format: "iife", name: "TOTP" },
+  output: [
+    { file: "dist/bundle.js", format: "iife", name: "TOTP" },
+    { file: "dist/index.js", format: "cjs" },
+    { file: "dist/index.mjs", format: "es" }
+  ],
   plugins: [typscript(), production && terser()]
 };
