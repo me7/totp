@@ -16,13 +16,12 @@
     "rollup": "^1.17.0",
     "rollup-plugin-terser": "^5.1.1",
     "rollup-plugin-typescript": "^1.0.1",
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+    "tslib": "^1.10.0"
   },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
-  "dependencies": {
-    "tslib": "^1.10.0"
-  }
+  "dependencies": {}
 }
